@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+
+  <!-- 和在properties文件中写的 vehicle=com.andy.spring.factory.Car 效果一样 -->
+  <bean name="train" class="com.andy.spring.factory.Train">
+    <!-- collaborators and configuration for this bean go here -->
+  </bean>
+   <bean name="car" class="com.andy.spring.factory.Car">
+  </bean>
+</beans>
